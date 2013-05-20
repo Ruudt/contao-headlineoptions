@@ -1,13 +1,8 @@
 <?php
 
 /**
- * Contao Open Source CMS
- *
- * Copyright (c) 2005-2013 Leo Feyer
- *
- * @package Core
- * @link    https://contao.org
- * @license http://www.gnu.org/licenses/lgpl-3.0.html LGPL
+ * @copyright  Ruud Walraven 2013
+ * @author     Ruud Walraven <ruud.walraven@gmail.com>
  */
 
 
@@ -15,41 +10,10 @@
  * Table tl_content
  */
 
-	// Config
-	// $GLOBALS['TL_DCA']['tl_content']['config'] => array
-		// 'onload_callback'             => array
-		// (
-			// array('tl_content', 'showJsLibraryHint')
-		// ),
-
-	// Fields
+// Fields
 $GLOBALS['TL_DCA']['tl_content']['fields']['headline']['_options'] = $GLOBALS['TL_DCA']['tl_content']['fields']['headline']['options'];
 unset($GLOBALS['TL_DCA']['tl_content']['fields']['headline']['options']);
 $GLOBALS['TL_DCA']['tl_content']['fields']['headline']['options_callback'] = array('tl_content_headlineoptions', 'getHeadlines');
-	// (
-		// 'type' => array
-		// (
-			// 'label'                   => &$GLOBALS['TL_LANG']['tl_content']['type'],
-			// 'default'                 => 'text',
-			// 'exclude'                 => true,
-			// 'filter'                  => true,
-			// 'inputType'               => 'select',
-			// 'options_callback'        => array('tl_content', 'getContentElements'),
-			// 'reference'               => &$GLOBALS['TL_LANG']['CTE'],
-			// 'eval'                    => array('helpwizard'=>true, 'chosen'=>true, 'submitOnChange'=>true, 'gallery_types'=>array('gallery'), 'downloads_types'=>array('downloads')),
-			// 'sql'                     => "varchar(32) NOT NULL default ''"
-		// ),
-		 // => array
-		// (
-			// 'label'                   => &$GLOBALS['TL_LANG']['tl_content']['headline'],
-			// 'exclude'                 => true,
-			// 'search'                  => true,
-			// 'inputType'               => 'inputUnit',
-			// 'options'                 => array('h1', 'h2', 'h3', 'h4', 'h5', 'h6'),
-			// 'eval'                    => array('maxlength'=>200),
-			// 'sql'                     => "varchar(255) NOT NULL default ''"
-		// ),
-
 
 /**
  * Class tl_content_headlineoptions

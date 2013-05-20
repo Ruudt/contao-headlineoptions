@@ -1,5 +1,10 @@
 <?php
 
+/**
+ * @copyright  Ruud Walraven 2013
+ * @author     Ruud Walraven <ruud.walraven@gmail.com>
+ */
+
 $GLOBALS['TL_LANG']['tl_layout']['mainChangeHeadlineoptions'][0] = 'Pas de opties voor koptekst in hoofdkolom aan';
 $GLOBALS['TL_LANG']['tl_layout']['mainChangeHeadlineoptions'][1] = 'Aanvinken om de beschikbare opties voor soorten koptekst in de hoofdkolom aan te passe. (h1...h6).';
 $GLOBALS['TL_LANG']['tl_layout']['mainHeadlineoptions'][0] = 'Koptekst opties';

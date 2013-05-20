@@ -1,6 +1,11 @@
 <?php
 
 /**
+ * @copyright  Ruud Walraven 2013
+ * @author     Ruud Walraven <ruud.walraven@gmail.com>
+ */
+
+/**
  * Table tl_layout
  */
 

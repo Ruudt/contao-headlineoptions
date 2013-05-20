@@ -1,5 +1,10 @@
 <?php
 
+/**
+ * @copyright  Ruud Walraven 2013
+ * @author     Ruud Walraven <ruud.walraven@gmail.com>
+ */
+
 $GLOBALS['TL_LANG']['tl_layout']['mainChangeHeadlineoptions'][0] = 'Change the main column headline options';
 $GLOBALS['TL_LANG']['tl_layout']['mainChangeHeadlineoptions'][1] = 'Allows to change the available options for the headline select (h1...h6) in the main column.';
 $GLOBALS['TL_LANG']['tl_layout']['mainHeadlineoptions'][0] = 'Headline options';
