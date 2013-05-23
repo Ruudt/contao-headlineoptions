@@ -58,7 +58,7 @@ class tl_content_headlineoptions extends Backend
 		}
 
 		// TODO: can this be more efficient?
-		$objPage = PageModel::findPublishedByIdOrAlias($objArticle->pid)->current()->loadDetails();
+		$objPage = PageModel::findById($objArticle->pid)->current()->loadDetails();
 		$objLayout = $this->Database->prepare("SELECT * FROM tl_layout WHERE id=?")
 									->execute($objPage->layout);
 
